@@ -1,0 +1,29 @@
+.pic-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+
+.pic {
+    width: 250px;
+    height: auto;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    
+}
+
+.image-text {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px 250px 250px;
+    gap: 20px;
+    background-color: mediumturquoise;
+}
